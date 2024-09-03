@@ -1,0 +1,45 @@
+<html>
+
+<head>
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>calculator</title>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+
+<body>
+    <div class="calcContainer">
+        <div class="calc">
+            <div class="calcBody  dflex-col">
+                <div class="heading">
+                    <h2>create simple calculator</h2>
+                </div>
+                <div class="calcvalue">
+                    <form>
+                       <h2>value 1<input type="number" id="num1"></h2>
+                        <br><br>
+                        <h2>value 2 <input type="number" id="num2"> </h2>
+                        <br><br>
+                        <select id="calculate" class="math">
+                            <option value="+">+</option>
+                            <option value="-">-</option>
+                            <option value="*">x</option>
+                            <option value="/">/</option>
+                        </select><br><br>
+                        <button type="button" onclick="myfunction()">calculate </button><br><br>
+                      <h3>Result<input type="text" id="result"></h3>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
+
+
+<script src="./app.js"></script>
